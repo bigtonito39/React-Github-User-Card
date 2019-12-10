@@ -14,13 +14,15 @@ class Data extends React.Component{
     
         axios.get(`https://api.github.com/users/bigtonito39`)
         .then(response => {
+            console.log(response)
             this.setState({...this.state, user: response.data})
         })
        .catch(error =>{
            console.log(`this is an ${error}`)
        })
-       axios.get('https://api.github.com/users/Iyehvah/followers')
+       axios.get('https://api.github.com/users/bigtonito39/followers')
        .then(response => {
+           console.log(response)
            this.setState({...this.state, userFollowers:response.data})
        })
        .catch (error => {

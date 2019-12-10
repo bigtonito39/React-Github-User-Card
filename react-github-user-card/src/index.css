@@ -1,0 +1,33 @@
+header{
+    width:95%;
+    margin-left:2%;
+}
+
+.Main-Card{
+    width:25%;
+    margin:2%;
+    height:10%;
+  
+     
+}
+
+.Main-Div{
+    background-color:grey;
+    border-radius:50px;
+    display:flex;
+    
+}
+.Followers-div{
+display:flex;
+width:50%;
+flex-wrap:wrap;
+-ms-flex-align: stretch;
+    
+    
+}
+.followers-Card{
+width:20%;
+height:auto;
+margin:2%;
+    
+}

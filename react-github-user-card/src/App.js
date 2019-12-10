@@ -5,7 +5,7 @@ import Data from "../src/components/Data";
 function App() {
   return (
     <div className="App">
-      <header >
+      <header>
        <Data />
       </header>
     </div>
